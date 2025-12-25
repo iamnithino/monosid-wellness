@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // You can add custom colors here later if you want 
+      // to match your 'MonoSid' branding perfectly.
+    },
   },
-  plugins: [],
+  plugins: [
+    // This adds support for the 'animate-in' classes in your code
+    require("tailwindcss-animate"), 
+  ],
 }
