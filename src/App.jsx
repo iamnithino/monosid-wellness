@@ -118,7 +118,7 @@ const App = () => {
    * --- COMPONENT: HOMEPAGE ---
    */
   const HomePage = () => {
-    const navItems = ['About us', 'Features', 'Pricing', 'Contact us'];
+    const navItems = ['Home','About us', 'Features', 'Pricing', 'Contact us'];
     const avatars = [
       'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=64&h=64&fit=crop&crop=faces',
       'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=64&h=64&fit=crop&crop=faces',
